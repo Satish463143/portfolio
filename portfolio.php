@@ -36,22 +36,59 @@
                 <a href="https://maya-wears.com/" target="_blank">
                 <div class="project_img">
                     <img src="image/maya.png" alt="">                    
-                    <div class="project_cont" id="project_cont">
-                        <h2>Maya Wears</h2>
-                        <p>E-commerce</p>
-                    </div>
-                    
+                    <div class="view_project" id="view_project">
+                        <button><a href="https://maya-wears.com/" target="_blank">View Project</a></button>
+                    </div>                   
                 </div>
                 </a>
-                
-                
-                
+                <div class="project_cont">
+                    <ul>
+                        <li>HTML</li>
+                        <li>SCSS</li>
+                        <li>JavaScript</li>
+                        <li>JQuery</li>
+                        <li>Bootstrap</li>
+                        <li>PHP</li>
+                    </ul>
+                    
+                    <h3>Maya Wears</h3>
+                    <p>Carfting Creativity Company</p>
+                    <h4>An E-commerce Website</h4>                    
+                </div>
+            </div>
+            <div class="project" onmouseenter="changeTwo()" onmouseleave="changeBack()">
+                <a href="https://satish463143.github.io/Sanjeev_Protfolio/" target="_blank">
+                <div class="project_img">
+                    <img src="image/maya.png" alt="">                    
+                    <div class="view_project" id="view_project">
+                        <button><a href="https://satish463143.github.io/Sanjeev_Protfolio/" target="_blank">View Project</a></button>
+                    </div>                 
+                </div>
+                </a>
+                <div class="project_cont">
+                    <ul>
+                        <li>HTML</li>
+                        <li>SCSS</li>
+                        <li>JavaScript</li>
+                        <li>JQuery</li>
+                        <li>Bootstrap</li>
+                        <li>PHP</li>
+                    </ul>                    
+                    <h3>Maya Wears</h3>
+                    <p>Carfting Creativity Company</p>
+                    <h4>An E-commerce Website</h4>                    
+                </div>                           
             </div>
         </div>
     </div>
     
 </section>
-
+<script>
+    function changeTwo() {    
+    document.getElementById('port_img').style.backgroundImage = "url(Image/hannes.jpg)";
+    console.log("satish")
+}
+</script>
 
 
 <?php include "footer.php" ?>
