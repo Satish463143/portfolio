@@ -56,9 +56,9 @@
             <div class="details">
                 <div class="details_cente">
                 <p><i class="fa-solid fa-location-dot"></i><span>Lokanthali, Bhaktpur, Nepal</span></p>
-                <p><i class="fa-solid fa-phone"></i><span>+977 9809673319</span></p>
-                <p><i class="fa-solid fa-envelope"></i><span>mahatosatish463@gmail.com</span></p>
-                <p><i class="fa-brands fa-square-instagram"></i><span>@satis.hmahato</span></p>
+                <p><a href="tel:+9779809673319"><i class="fa-solid fa-phone"></i><span>+977 9809673319</span></a></p>
+                <p><a href="mailto:mahatosatish463@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i><span>mahatosatish463@gmail.com</span></a></p>
+                <p><a href="https://www.instagram.com/satis.hmahato/" target="_blank"><i class="fa-brands fa-instagram"></i><span>@satis.hmahato</span></a></p>
                 </div>  
             </div>
             <div class="cont_message">

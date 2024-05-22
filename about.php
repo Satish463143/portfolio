@@ -28,13 +28,15 @@
         <div class="about_cont">
             <h1>About satish</h1>
             <h4>Designer & developer</h4>
-            <p>            
+            <p id="first_cont">            
                Hello! I'm Satish, a developer passionate about Full-Stack Development. Based in Kathmandu, 
                I specialize in building responsive and dynamic web applications using modern frameworks such as React.js for
                 the frontend and Node.js with Express.js for the backend. With a focus on user-centric design and efficient
-                 code architecture, I enjoy crafting innovative solutions that merge functionality with aesthetics. <br>
-               My goal is to bring creativity and precision to every project, ensuring impactful results that resonate.
-                Let's connect and explore how we can collaborate on your next project!
+                 code architecture, I enjoy crafting innovative solutions that merge functionality with aesthetics. <span id="show" onclick="show()">Read More</span>
+                 </p>
+                 <p id="more_cont">
+                 My goal is to bring creativity and precision to every project, ensuring impactful results that resonate.
+                Let's connect and explore how we can collaborate on your next project! <span id="hide" onclick="hide()">Show less</span>
             </p>
         </div>
         
@@ -169,6 +171,19 @@
     </div>
 </section>
 
+<script>
+    function show(){
+    document.getElementById('more_cont').style.visibility = "visible";
+    document.getElementById('show').style.visibility = "hidden";
+    
+}
+
+    function hide(){
+        document.getElementById('more_cont').style.visibility = "hidden";
+        document.getElementById('show').style.visibility = "visible";
+    }
+
+</script>
 
 
 <?php include"footer.php" ?>
